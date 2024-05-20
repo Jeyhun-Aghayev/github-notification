@@ -84,55 +84,55 @@ jobs:
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Repository:</td>
+                                <th>Repository:</th>
                                 <td>${{ github.repository }}</td>
                             </tr>
                             <tr>
-                                <td>Branch:</td>
+                                <th>Branch:</th>
                                 <td>${{ github.ref }}</td>
                             </tr>
                             <tr>
-                                <td>Event:</td>
+                                <th>Event:</th>
                                 <td>${{ github.event_name }}</td>
                             </tr>
                             <tr>
-                                <td>Action:</td>
+                                <th>Action:</th>
                                 <td>${{ github.action }}</td>
                             </tr>
                             <tr>
-                                <td>Actor:</td>
+                                <th>Actor:</th>
                                 <td>${{ github.actor }}</td>
                             </tr>
                             <tr>
-                                <td>Workflow:</td>
+                                <th>Workflow:</th>
                                 <td>${{ github.workflow }}</td>
                             </tr>
                             <tr>
-                                <td>Run ID:</td>
+                                <th>Run ID:</th>
                                 <td>${{ github.run_id }}</td>
                             </tr>
                             <tr>
-                                <td>Run Number:</td>
+                                <th>Run Number:</th>
                                 <td>${{ github.run_number }}</td>
                             </tr>
                             <tr>
-                                <td>Event Name:</td>
+                                <th>Event Name:</th>
                                 <td>${{ github.event_name }}</td>
                             </tr>
                             <tr>
-                                <td>Event Path:</td>
+                                <th>Event Path:</th>
                                 <td>${{ github.event_path }}</td>
                             </tr>
                             <tr>
-                                <td>Event Inputs:</td>
+                                <th>Event Inputs:</th>
                                 <td>${{ github.event.inputs }}</td>
                             </tr>
                             <tr>
-                                <td>Event Outputs:</td>
+                                <th>Event Outputs:</th>
                                 <td>${{ github.event.outputs }}</td>
                             </tr>
                             <tr>
-                                <td>Event Payload:</td>
+                                <th>Event Payload:</th>
                                 <td>${{ github.event.payload }}</td>
                             </tr>
                         </tbody>
