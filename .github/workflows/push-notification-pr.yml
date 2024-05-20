@@ -25,7 +25,7 @@ jobs:
           from: ${{ secrets.EMAIL_FROM }} # Mail gönderen, mail adresi
           subject: "Push Notification fo PR - ${{github.event_name}}" # Mail konusu
           content_type: "text/html" # Mail içeriği
-          body: |
+          html_body: |
             <table class="table table-striped">
                 <caption>${{ github.event_name }} event triggered for PR</caption>
                 <thead>
