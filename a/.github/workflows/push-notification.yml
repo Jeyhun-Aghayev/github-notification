@@ -15,4 +15,4 @@ jobs:
             subject: 'Push Notification'      # Mail konusu
             body: 'Push Notification'         # Mail içeriği
             to: ${{ secrets.EMAIL_TO }}       # Mail gönderilecek, mail adresi
-            from: ${{ secrets.EMAIL_FROM }}   # Mail gönderen, mail adresi
+            from: ${{ secrets.EMAIL_FROM }}   # Mail gönderen, mail adresi  qzeh lpip jusl trzg
